@@ -1,14 +1,14 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-
-import styles from './popularjobs.style'
+import React from "react";
+import { View } from "react-native";
+import About from "../../jobdetails/about/About";
+import styles from "./popularjobs.style";
 
 const Popularjobs = () => {
   return (
     <View>
-      <Text>Popularjobs</Text>
+      <About />
     </View>
-  )
-}
+  );
+};
 
-export default Popularjobs
+export default Popularjobs;
